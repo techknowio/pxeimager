@@ -1,0 +1,9 @@
+DEFAULT menu.c32
+prompt 0
+timeout 1
+ONTIMEOUT local
+
+LABEL local
+        MENU LABEL Boot local hard drive
+        LOCALBOOT 0
+

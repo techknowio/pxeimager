@@ -1,0 +1,7 @@
+export NFSHOST=192.168.150.1
+export NFSDIR=/images
+export IMAGENAME=os.image
+export DOWNINTERFACE=0
+export WIFI=1
+export MODULE=rt2800usb
+export DEVICE=/dev/sda

@@ -1,0 +1,9 @@
+DEFAULT menu.c32
+prompt 0
+timeout 3
+ONTIMEOUT Techknow
+
+LABEL Techknow
+    MENU LABEL Techknow OS Image
+    kernel bzImage
+    append initrd=os.squash root=/dev/ram0 init=/linuxrc ramdisk_size=400000 TFTPHOST=192.168.150.1 vga=791 pxefile=01-00-0c-29-bb-3e-73 MAKEIMAGE=1
